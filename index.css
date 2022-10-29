@@ -1,0 +1,88 @@
+/*   
+  Project by Zua 
+  https://github.com/thatziv/webhook 
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+* {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: #19191b;
+    margin-top: 3%;
+}
+
+#container {
+    margin-top: 80px;
+    margin: auto;
+    margin-right: 25px;
+    margin-left: 25px;
+    background: rgb(13, 13, 13); 
+    padding: 25px;
+    border-radius: 12px;
+}
+
+#header {
+    text-align: center;
+    margin-top: 47px;
+    margin: auto;
+    font-size: 39px
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.37); 
+    color: white;
+    text-align: center;
+}
+
+.center-align {
+    text-align: center;
+}
+
+p {
+    color: #ffff;
+    font-size: 27px;
+}
+
+a, a:visited {
+    color: rgb(129, 129, 129)
+}
+
+#link, #username, #content, #avatar {
+    font-size: 25px;
+    background-color: #19191c;
+    width: 75%;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    outline: none;
+}
+
+#btn {
+    width: 35%;
+    font-size: 25px;
+    margin-top: 25px;
+    padding: 17px;
+    background-color: #060707;
+    border: 2px solid #000000c9;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+    border-radius: 48px;
+}
+
+#btn:hover { 
+    background-color: #1e1e1e;
+}
+
+#log {
+    text-align: center;
+    width: 5%;
+    background-color: rgb(110, 255, 43);
+    color: green;
+}
